@@ -159,7 +159,7 @@ $(document).on('submit','#anonymform',function(e){
 
         $.ajax({
             type: "POST",
-            url: "https://dereferer.me/api/v1/generate",
+            url: "https://stremio-teens-vip.netlify.app/api/v1/generate",
             data: { url: hurl },
             contentType: "application/json; charset=utf-8",
             dataType: "json",
